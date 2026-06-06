@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:fruit_salad_combo/utils/validators.dart';
-import 'package:fruit_salad_combo/widgets/primary_textfield.dart';
 
 void main() {
   group("First Name Validation", () {
