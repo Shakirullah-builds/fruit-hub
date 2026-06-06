@@ -2,43 +2,43 @@ class MyStrings {
   MyStrings._();
   // ----------------- Image Paths ----------------
 
-  static const String basketImgPath = "lib/assets/fruit-basket.png";
-  static const String shadowImgPath = "lib/assets/shadow.png";
-  static const String fruitHubLogo = "lib/assets/fruit-logo.png";
-  static const String fruitBinBasket = "lib/assets/fruit-bin-basket.png";
-  static const String navImg = "lib/assets/nav-img.png";
-  static const String myBasketImg = "lib/assets/my-basket-img.png";
+  static const String basketImgPath = "assets/images/fruit-basket.png";
+  static const String shadowImgPath = "assets/images/shadow.png";
+  static const String fruitHubLogo = "assets/images/fruit-logo.png";
+  static const String fruitBinBasket = "assets/images/fruit-bin-basket.png";
+  static const String navImg = "assets/images/nav-img.png";
+  static const String myBasketImg = "assets/images/my-basket-img.png";
   //static const String searchIcon = "lib/assets/search-icon.png";
   //static const String sortIcon = "lib/assets/sort-icon.png";
   static const String honeyLimeComboImg =
-      "lib/assets/Honey-Lime-Peach-Fruit-Salad.png";
+      "assets/images/Honey-Lime-Peach-Fruit-Salad.png";
   static const String glowingBerryImg =
-      "lib/assets/Glowing-Berry-Fruit-Salad.png";
+      "assets/images/Glowing-Berry-Fruit-Salad.png";
   static const String quinoaImg =
-      "lib/assets/breakfast-quinoa-and-red-fruit-salad.png";
+      "assets/images/breakfast-quinoa-and-red-fruit-salad.png";
   static const String quinoaImg2 =
-      "lib/assets/breakfast-quinoa-and-red-fruit-salad-preview 2.png";
+      "assets/images/breakfast-quinoa-and-red-fruit-salad-preview 2.png";
   static const String tropicalFruitImg =
-      "lib/assets/Best-Ever-Tropical-Fruit-Salad8-WIDE.png";
-  static const String orderComplete = "lib/assets/order-complete.png";
-  static const String orderReceipt = "lib/assets/order-receipt.png";
-  static const String orderPrepared = "lib/assets/order-prepared.png";
+      "assets/images/Best-Ever-Tropical-Fruit-Salad8-WIDE.png";
+  static const String orderComplete = "assets/images/order-complete.png";
+  static const String orderReceipt = "assets/images/order-receipt.png";
+  static const String orderPrepared = "assets/images/order-prepared.png";
   static const String orderDelivered = 
-      "lib/assets/delivery-man-riding-red-scooter.png";
-  static const String telephoneImg = "lib/assets/telephone.png";
-  static const String orderRecievedImg = "lib/assets/order-recieved.png";
-  static const String emptyBasketImg = "lib/assets/empty-basket.png";
+      "assets/images/delivery-man-riding-red-scooter.png";
+  static const String telephoneImg = "assets/images/telephone.png";
+  static const String orderRecievedImg = "assets/images/order-recieved.png";
+  static const String emptyBasketImg = "assets/images/empty-basket.png";
   static const String emptyShoppingCart =
-      "lib/assets/empty-shopping-cart-removebg.png";
-  static const String berryBlastImg = "lib/assets/Berry-blast.png";
-  static const String carribeanMixImg = "lib/assets/carribean-mix.png";
+      "assets/images/empty-shopping-cart-removebg.png";
+  static const String berryBlastImg = "assets/images/Berry-blast.png";
+  static const String carribeanMixImg = "assets/images/carribean-mix.png";
   static const String citrusSplashImg =
-      "lib/assets/citrus-splash-fruit-salad(2).png";
+      "assets/images/citrus-splash-fruit-salad(2).png";
   static const String summerBreezeImg =
-      "lib/assets/summer-breeze- fruit-salad.png";
-  static const String sweetSymphonyImg = "lib/assets/sweet-symphony(2).png";
+      "assets/images/summer-breeze- fruit-salad.png";
+  static const String sweetSymphonyImg = "assets/images/sweet-symphony(2).png";
   static const String tropicalQuinoaDelightImg =
-      "lib/assets/Tropical-Quinoa-Delight.png";
+      "assets/images/Tropical-Quinoa-Delight.png";
 
   // ----------------- Texts Paths ----------------
 
