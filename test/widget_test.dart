@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:fruit_salad_combo/constant/my_strings.dart';
 import 'package:fruit_salad_combo/model/combo_details.dart';
 import 'package:fruit_salad_combo/screens/add_to_basket_screen.dart';
@@ -76,7 +77,10 @@ void main() {
       ScreenUtilInit(
         designSize: Size(405, 844),
         builder: (context, child) {
-          return MaterialApp(home: WelcomeScreen());
+          return MaterialApp(
+            builder: EasyLoading.init(),
+            home: WelcomeScreen(),
+          );
         },
       ),
     );
@@ -84,8 +88,8 @@ void main() {
     await tester.pumpAndSettle();
 
     await tester.tap(find.byKey(const Key(MyStrings.letsContinue)));
+    await tester.pump(const Duration(seconds: 1));
     await tester.pumpAndSettle();
-    //await tester.pump();
 
     expect(find.byType(AuthenticationScreen), findsOneWidget);
   });
